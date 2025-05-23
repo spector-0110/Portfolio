@@ -15,7 +15,7 @@ const ExpCards = [
     src: "/RapipayLogo.svg",
     ctaText: "visit",
     ctaLink: "https://in.rapipay.com=",
-    duration:"2023 - Present",
+    duration:"August 2024 - Present",
     content: (
     <ul className="list-disc pl-5 space-y-2 text-left">
         <li><strong>Loan Debit System:</strong></li>
@@ -35,7 +35,7 @@ const ExpCards = [
     src: "NextGenScale.png",
     ctaText: "visit",
     ctaLink: "https://www.nextgenscale.in",
-    duration:"2023 - Present",
+    duration:"March 2025 - Present",
     content:(
         <ul className="list-disc pl-5 space-y-2 text-left">
             <li><strong>SaaS Platform – Tempus:</strong></li>

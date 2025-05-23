@@ -11,7 +11,7 @@ const EducationCard = [
  {
     description: "Computer Science and Engineering (Artifical Intelligence and Machine Learning)",
     title: "KIET Group of Institutions, Delhi NCR",
-    src: "/KietLogo.png",
+    src: "/KIETLogo.png",
     duration:"2021 - 2025"
   },
 ];

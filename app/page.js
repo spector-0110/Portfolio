@@ -31,8 +31,9 @@ export default function Home() {
         <section className="space-y-6">
           <h2 className="text-2xl font-semibold">About</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Full-stack developer passionate about building impactful solutions.
+            Full-stack developer passionate about building scalable APIs and systems.
             I like technology and deep science. They make a dent in the universe.
+            Currently expanding my skills in artificial intelligence.
           </p>
         </section>
 
@@ -68,11 +69,8 @@ export default function Home() {
         </section>
 
         {/* Skills/Interests section */}
-        <section className="space-y-6">
-          <h2 className="text-2xl font-semibold">Interests</h2>
-          <p className="text-lg text-muted-foreground">
-            I deeply study art, history, football and great books.
-          </p>
+        <section className="space-y-16">
+          <div className="pb-16"></div>
         </section>
       </div>
     </div>
@@ -81,72 +79,15 @@ export default function Home() {
 
 
 
-
 const skills = [
+  "JavaScript",
+  "Java",
   "React",
   "Next.js",
-  "TypeScript",
-  "Python",
-  "PyTorch",
+  "Node.js",
+  "Spring Boot",
   "PostgreSQL",
-  "C++",
-  "Shitposting"
-];
-
-const ExpCards = [
-  {
-    description: "Product Engineer Intern",
-    title: "Rapipay",
-    src: "/RapipayLogo.svg",
-    ctaText: "visit",
-    ctaLink: "https://in.rapipay.com=",
-    duration:"2023 - Present",
-    content: () => {
-      return (
-        <p>
-            • Loan Debit System:
-            • Designed and implemented a Loan Debit System using Spring Boot, automating loan deposit and dormant
-            account, reducing manual effort.
-            • Utilized MySQL stored procedures and MongoDB to efficiently store, retrieve, and map dormant entries with
-            loan deposit records.
-            • Developed RESTful APIs for CSV uploads, data processing, and mapping results, optimizing financial
-            workflow automation.
-            • Fino Payment Bank API Integration:
-            • Successfully integrated Fino Payment Bank APIs into RapiPay’s backend system, enabling additional payment
-            processing capabilities.
-            • Implemented MySQL stored procedures and used AES-256 encryption to securely handle Fino Bank payment
-            transaction data within RapiPay’s infrastructure.
-            • Developed interface layer between RapiPay’s backend and Fino Bank’s payment services, ensuring seamless
-            transaction processing and data synchronization.
-          </p>
-      );
-    },
-  },
-  {
-    description: "Full Stack Developer",
-    title: "NextGenScale",
-    src: "NextGenScale.png",
-    ctaText: "visit",
-    ctaLink: "https://www.nextgenscale.in",
-    duration:"2023 - Present",
-    content: () => {
-      return (
-          <p>
-            •SaaS Platform – Tempus:
-              • Co-founded and led the development of Tempus, a production-ready, multi-tenant SaaS platform for hospitals
-              and clinics.
-              • Tech stack: Node.js, Next.js, Supabase (PostgreSQL + Auth), Redis, RabbitMQ, JWT, RLS, RBAC.
-              • Key Contributions:
-              ∗ Designed appointment management, doctor availability, patient records, and subscription tracking modules.
-              ∗ Implemented row-level security (RLS) and role-based access control (RBAC) for secure multi-tenancy.
-              ∗ Used Redis for caching frequently accessed data and improving overall response time.
-              ∗ Utilized RabbitMQ for queueing and asynchronously processing background jobs like notifications and
-              emails.
-              ∗ Integrated magic links, push notifications, and real-time queues using Redis Pub/Sub and WebSockets.
-              ∗ Containerized the platform using Docker and set up a CI/CD pipeline with GitHub Actions for automated
-            deployments.
-          </p>
-      );
-    },
-  },
+  "Redis",
+  "Rabiit MQ",
+  "Docker",
 ];
