@@ -6,6 +6,7 @@ export function ContainerTextFlipMain() {
       words={[
         "full-stack developer",
         "problem solver",
+        "Google-powered genius",
       ]} 
     />
   );

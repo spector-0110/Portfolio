@@ -12,7 +12,7 @@ const ExpCards = [
   {
     description: "Product Engineer Intern",
     title: "Rapipay Fintech Pvt. Ltd.",
-    src: "/RapipayLogo.svg",
+    src: "/Rapi.jpeg",
     ctaText: "visit",
     ctaLink: "https://in.rapipay.com=",
     duration:"August 2024 - Present",
@@ -26,6 +26,9 @@ const ExpCards = [
         <li>Successfully integrated Fino Payment Bank APIs...</li>
         <li>Implemented MySQL stored procedures and used AES-256 encryption...</li>
         <li>Developed interface layer between RapiPay and Fino...</li>
+        <p>
+        <strong>Technologies:</strong> Java, Spring Boot, MySQL, RabbitMQ, Redis, Docker, GitHub Actions CI/CD.
+        </p>
     </ul>
 )
   },
@@ -40,7 +43,7 @@ const ExpCards = [
         <ul className="list-disc pl-5 space-y-2 text-left">
             <li><strong>SaaS Platform – Tempus:</strong></li>
             <li>Co-founded and led the development of Tempus, a production-ready, multi-tenant SaaS platform for hospitals and clinics.</li>
-            <li>Tech stack: Node.js, Next.js, Supabase (PostgreSQL + Auth), Redis, RabbitMQ, JWT, RLS, RBAC.</li>
+            <li><strong>Technologies:</strong> Node.js, Next.js, Supabase (PostgreSQL + Auth), Redis, RabbitMQ, JWT, RLS, RBAC.</li>
             <li>Designed appointment management, doctor availability, patient records, and subscription tracking modules.</li>
             <li>Implemented RLS and RBAC for secure multi-tenancy.</li>
             <li>Used Redis for caching frequently accessed data and improving response time.</li>
