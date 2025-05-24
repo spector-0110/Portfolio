@@ -2,30 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from './components/theme-provider';
 import { FloatingDockMain } from "./components/FloatingDockMain";
-import Head from "next/head";
-
-<Head>
-  <link rel="icon" href="/favicon.ico" />
-  <script type="application/ld+json">
-{`
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Vatsa Aditya",
-  "url": "https://vatsa.works",
-  "sameAs": [
-    "https://www.linkedin.com/in/vatsaaditya/",
-    "https://github.com/spector-0110"
-  ],
-  "jobTitle": "Full Stack Developer",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "NextGen Scale or Freelance or next gen scale or Tempus or tempus"
-  }
-}
-`}
-</script>
-</Head>
 
 
 const geistSans = Geist({
@@ -38,37 +14,26 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-{/* <meta property="og:image" content="https://yourdomain.com/logo.png" />
-<meta property="og:title" content="Your Site Title" />
-<meta property="og:description" content="Short site description." />
-<meta property="og:type" content="website" />
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://yourdomain.com/logo.png" /> */}
-
 export const metadata = {
   title: "Vatsa Aditya",
   description: "Portfolio of Vatsa Aditya, a developer specializing in web development, cloud computing, and open source.",
   keywords: [
     "Vatsa Aditya",
-    "Vatsa PR",
-    "Full Stack Developer",
-    "Backend Developer",
-    "Fintech Developer",
-    "Spring Boot Developer",
-    "Java Developer",
-    "Cloud Computing",
-    "AWS Developer",
-    "Web Development",
-    "Software Engineer",
-    "Software Developer",
-    "Portfolio",
-    "React Developer",
-    "Next.js Portfolio",
-    "Tech Blogs",
-    "Open Source Projects",
-    "Frontend Engineer",
-    "Web Developer India"
+    "freelance product engineer",
+    "MVP developer",
+    "software engineer India",
+    "build MVP",
+    "startup MVP builder",
+    "hire product engineer",
+    "freelance backend developer",
+    "Next.js developer",
+    "Java Spring developer",
+    "React developer",
+    "portfolio of Vatsa",
+    "vatsa freelance",
+    "vatsa software engineer",
+    "cloud developer",
+    "startup product developer",
   ],
   authors: [{ name: "Vatsa Aditya" }],
   creator: "Vatsa Aditya",
@@ -78,7 +43,7 @@ export const metadata = {
   openGraph: {
     title: "Vatsa Aditya",
     description: "Explore Vatsa Aditya's portfolio of cutting-edge web apps, tech blogs, and open-source projects.",
-    images: ["/logo.png"],
+    images: ["/WormHole.jpg"],
     url: "https://vatsa.works",
     type: "website",
   },
