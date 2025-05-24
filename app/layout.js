@@ -6,6 +6,25 @@ import Head from "next/head";
 
 <Head>
   <link rel="icon" href="/favicon.ico" />
+  <script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Vatsa Aditya",
+  "url": "https://vatsa.works",
+  "sameAs": [
+    "https://www.linkedin.com/in/vatsaaditya/",
+    "https://github.com/spector-0110"
+  ],
+  "jobTitle": "Full Stack Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "NextGen Scale or Freelance or next gen scale or Tempus or tempus"
+  }
+}
+`}
+</script>
 </Head>
 
 
