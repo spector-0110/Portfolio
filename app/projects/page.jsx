@@ -23,6 +23,7 @@ const projectsData = [
     "Docker",
     "Supabase"
   ],
+  liveLink: "https://tempus.vatsa.works",
   githubLink: "https://github.com/spector-0110/TEMPUS-BACKEND"
   },
   {
@@ -30,7 +31,7 @@ const projectsData = [
     description: "A modern, responsive landing page for a brand built with Next.js and integrated with Next Gen Scale for scalable hosting and deployment.",
     image: "/NextGenScale.png",
     technologies: ["Next.js", "Tailwind CSS", "Vercel","Farmer Motion"],
-    liveLink: "https://nextgenscale.in",
+    liveLink: "https://www.nextgenscale.in",
     githubLink: "https://github.com/spector-0110/NextGen-Scale"
   },
   {

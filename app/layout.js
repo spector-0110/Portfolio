@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Vatsa Aditya",
+  metadataBase: new URL('https://vatsa.works'),
   description: "Portfolio of Vatsa Aditya, a developer specializing in web development, cloud computing, and open source.",
   keywords: [
     "Vatsa Aditya",

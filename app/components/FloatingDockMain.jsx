@@ -86,7 +86,7 @@ export function FloatingDockMain() {
     <div className="fixed bottom-6 left-0 right-0 z-50 flex items-center justify-center w-full">
       <FloatingDock
         desktopClassName="bg-gray-50/80 dark:bg-neutral-900/80 backdrop-blur-lg shadow-lg border border-gray-200 dark:border-neutral-800"
-        mobileClassName="bg-gray-50/80 dark:bg-neutral-900/80 backdrop-blur-lg shadow-lg border border-gray-200 dark:border-neutral-800 w-[95%] mx-auto"
+        mobileClassName="bg-gray-50/80 dark:bg-neutral-900/80 backdrop-blur-lg shadow-lg border border-gray-200 dark:border-neutral-800 w-[83%] mx-auto"
         items={links} 
       />
     </div>
