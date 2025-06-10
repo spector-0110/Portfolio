@@ -4,9 +4,9 @@ import { ProjectShowcase } from '../components/ui/ProjectShowcase';
 
 const projectsData = [
   {
-  title: "Tempus (under development)",
+  title: "Tiqora (under development)",
   description: "An advance queuing and appoitment solution with a scalable backend for real-time appointment and doctor management using Redis and RabbitMQ, paired with a responsive frontend dashboard featuring pagination, filtering, JWT authentication, and push notifications.",
-  image: "/Tempus.png",
+  image: "/Tiqora.svg",
   technologies: [
     "Next.js",
     "React",
@@ -23,8 +23,7 @@ const projectsData = [
     "Docker",
     "Supabase"
   ],
-  liveLink: "https://tempus.vatsa.works",
-  githubLink: "https://github.com/spector-0110/TEMPUS-BACKEND"
+  liveLink: "https://tiqora.in",
   },
   {
     title: "Brand Landing Page",
@@ -43,7 +42,7 @@ const projectsData = [
     githubLink: "https://github.com/username/portfolio"
   },
   {
-    title: "Digital Dialogue (currently not live: credits of azure were used up)",
+    title: "Digital Dialogue (currently not live: credits were used up )",
     description: "A Java-based blogging platform where users can write and publish blogs. Built with JSP, Servlets, and SQL database, featuring authentication and OTP verification for secure user login.",
     image: "/DigitalDialogue.png",
     technologies: ["Java", "JSP", "AJAX","Servlets", "SQL", "Authentication"],
