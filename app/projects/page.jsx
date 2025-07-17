@@ -3,8 +3,9 @@
 import { ProjectShowcase } from '../components/ui/ProjectShowcase';
 
 const projectsData = [
+
   {
-  title: "Tiqora (under development)",
+  title: "Tiqora",
   description: "An advance queuing and appoitment solution with a scalable backend for real-time appointment and doctor management using Redis and RabbitMQ, paired with a responsive frontend dashboard featuring pagination, filtering, JWT authentication, and push notifications.",
   image: "/Tiqora.svg",
   technologies: [
@@ -25,8 +26,30 @@ const projectsData = [
   ],
   liveLink: "https://tiqora.in",
   },
+
   {
-    title: "Brand Landing Page",
+  title: "ZimmedarJanta",
+  description: "A civic-tech platform to report local infrastructure issues via photo uploads. Uses location metadata and image analysis to auto-generate contextual blog posts and tweets, tag responsible officials (MLA, MP, DM), and push reports publicly. Powered by Redis queues, Supabase, and LLMs via OpenRouter for AI-generated content.",
+  image: "/zimmedarjanta.png",
+  technologies: [
+    "Next.js (App Router)",
+    "React",
+    "Tailwind CSS",
+    "Supabase",
+    "Supabase Auth",
+    "Google Vision API",
+    "Puppeteer",
+    "Redis",
+    "RabbitMQ",
+    "PostgreSQL",
+    "TypeScript",
+    "OpenRouter (LLM API)"
+  ],
+  liveLink: "https://zimmedarjanta.nextgenscale.in"
+},
+  
+  {
+    title: "Brand Landing Website",
     description: "A modern, responsive landing page for a brand built with Next.js and integrated with Next Gen Scale for scalable hosting and deployment.",
     image: "/NextGenScale.png",
     technologies: ["Next.js", "Tailwind CSS", "Vercel","Farmer Motion"],

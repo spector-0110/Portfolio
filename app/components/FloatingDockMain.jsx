@@ -36,13 +36,13 @@ export function FloatingDockMain() {
       ),
       href: "/projects",
     },
-    {
-      title: "Blog",
-      icon: (
-        <IconBrandMedium className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "https://medium.com/@spectorcodes",
-    },
+    // {
+    //   title: "Blog",
+    //   icon: (
+    //     <IconBrandMedium className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    //   ),
+    //   href: "https://medium.com/@spectorcodes",
+    // },
     {
       title: "Twitter",
       icon: (

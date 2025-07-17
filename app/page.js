@@ -51,9 +51,15 @@ export default function Home() {
         >
           <h2 className="text-2xl font-semibold">About</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Full-stack developer passionate about building scalable APIs and systems.
-            I like technology and deep science. They make a dent in the universe.
-            Currently expanding my skills in artificial intelligence.
+            Solved a sustainability problem in first year → won college’s biggest hackathon → backed by TBI.
+            <br />
+            Built Tiqora to fix hospital queue mess — actually used in real clinics.
+            <br />
+            Worked with startups, built products, and learned how to ship fast.
+            <br />
+            Tried hands at digital marketing with NextGenScale, landed clients, learned how things grow.
+            <br/ >
+            I ship fast, care about real impact, and never stopped building.
           </p>
         </motion.section>
 
